@@ -1,4 +1,17 @@
-# Taxually technical test
+# Taxually technical test - About my solution
+
+I have enhanced the code to follow the SOLID principles. To do that, I have:
+- Refactored the code to use the Factory pattern for VAT registration creation
+- Add dependency injection for new services
+- Add interfaces for already existing code clients too, and apply dependency injection on them too.
+  
+- Also, add tests with a new test project (as requested)
+
+- Use enums for countries (just to make the code more readable and to avoid too many hardcoded parts)
+- Add const for filenames (just to make the code more readable, thinking there will be a need for these later too, avoiding multiple hardcoded names)
+
+
+# Taxually technical test - original assignment
 
 This solution contains an [API endpoint](https://github.com/Taxually/developer-test/blob/main/Taxually.TechnicalTest/Taxually.TechnicalTest/Controllers/VatRegistrationController.cs) to register a company for a VAT number. Different approaches are required based on the country where the company is based:
 
